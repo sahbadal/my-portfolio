@@ -93,9 +93,9 @@ const Contact = () => {
                             <input
                                 type="text"
                                 name="name"
+                                autoComplete='off'
                                 value={formData.name}
                                 onChange={handleChange}
-                                autoComplete='off'
                                 required
                                 className="w-full px-4 py-3 outline-0 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                                 placeholder="Your name"
@@ -107,9 +107,9 @@ const Contact = () => {
                             <input
                                 type="email"
                                 name="email"
+                                autoComplete='off'
                                 value={formData.email}
                                 onChange={handleChange}
-                                autoComplete='off'
                                 required
                                 className="w-full px-4 py-3 outline-0 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                                 placeholder="you@example.com"
@@ -120,9 +120,9 @@ const Contact = () => {
                             <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
                             <textarea
                                 name="message"
+                                autoComplete='off'
                                 value={formData.message}
                                 onChange={handleChange}
-                                autoComplete='off'
                                 required
                                 rows={4}
                                 className="w-full px-4 py-3 border outline-0 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
