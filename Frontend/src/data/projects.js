@@ -19,8 +19,7 @@ export const projects = [
     name: "Background Remover App",
     description:
       "AI-powered background removal tool using machine learning models. Features drag-and-drop upload and instant processing.",
-    techStack: ["React", "Python", "TensorFlow", "OpenCV", "Flask"],
-    github: "https://github.com/sahbadal/bg-remover",
+    techStack: ["React", "Python", "TensorFlow", "OpenCV", "Flask"],   github:"https://github.com/sahbadal/AI_BG_REMOVER"
     demo: null,
   },
 ];
