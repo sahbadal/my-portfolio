@@ -1,25 +1,103 @@
+import { assets } from "../assets/assets.js";
+
 export const projects = [
-  {
-    name: "MERN Auth System",
-    description:
-      "Complete authentication system with JWT tokens, password hashing, and user management. Features include login, register, forgot password, and protected routes.",
-    techStack: ["MongoDB", "Express", "React", "Node.js", "JWT", "bcrypt"],
-    github: "https://github.com/sahbadal/mern-auth",
-    demo: null,
-  },
-  {
-    name: "TiffinDelight",
-    description:
-      "Food delivery platform with real-time order tracking, payment integration, and admin dashboard. Built with modern UI/UX principles.",
-    techStack: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"],
-    github: "https://github.com/sahbadal/tiffin-delight",
-    demo: "https://tiffin-delight.vercel.app",
-  },
   {
     name: "Background Remover App",
     description:
-      "AI-powered background removal tool using machine learning models. Features drag-and-drop upload and instant processing.",
-    techStack: ["React", "Python", "TensorFlow", "OpenCV", "Flask"],   github:"https://github.com/sahbadal/AI_BG_REMOVER"
-    demo: null,
+      "A background removal tool. Features drag-and-drop upload or paste url and instant processing. Signup and get 5 free credits.",
+    image: assets.bg_removal,
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Clerk",
+      "Razorpay",
+      "multer",
+      "cloudinary",
+      "JWT",
+    ],
+    github: "https://github.com/sahbadal/AI_BG_REMOVER",
+    demo: "https://ai-bg-remover-7nfg.vercel.app",
+  },
+  {
+    name: "Food Delivery App",
+    description:
+      "A food delivery application that allows users to browse restaurants, view menus, and place orders for delivery or pickup.",
+    image: assets.food_delivery,
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Stripe",
+      "multer",
+      "cloudinary",
+      "JWT",
+      "Vercel",
+      "Render",
+    ],
+    github: "https://github.com/sahbadal/Food-Delivery",
+    demo: "https://food-delivery-bice-eight.vercel.app",
+  },
+  {
+    name: "AI Image Search Engine",
+    description:
+      "An AI-powered image generation and search gallery built with OpenAI's DALL·E API. Upload prompts, get stunning images and Post with community.",
+    image: assets.ai_image,
+    techStack: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "OpenAI API",
+      "Cloudinary",
+      "Multer",
+    ],
+    github: "https://github.com/sahbadal/AI-Image-Search-engine",
+    demo: "https://ai-image-search-engine.vercel.app",
+  },
+  {
+    name: "MERN Auth System",
+    description:
+      "Complete authentication system with JWT tokens, password hashing, and user management. Features include login, register, forgot password , email verification with otp, continue with google and protected routes.",
+    image: assets.mern_auth,
+    techStack: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "JWT",
+      "bcrypt",
+      "Google OAuth",
+      "Passport.js",
+      "Nodemailer",
+    ],
+    github: "https://github.com/sahbadal/MERN-AUTH",
+    demo: "https://mern-auth-rust.vercel.app",
+  },
+  {
+    name: "Note Taking App",
+    description:
+      "A full-stack note-taking application built using the latest technologies. Users can register using Email + OTP or Google OAuth, and securely create or delete personal notes.",
+    image: assets.note_taking,
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "bcrypt",
+      "Google OAuth 2.0",
+      "Nodemailer",
+    ],
+    github: "https://github.com/sahbadal/note-taking",
+    demo: "https://note-taking-sandy-ten.vercel.app",
   },
 ];

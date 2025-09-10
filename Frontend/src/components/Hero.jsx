@@ -12,7 +12,7 @@ const Hero = () => {
                             Hi, I'm <span className="text-blue-600">Badal Sah</span>
                         </h1>
                         <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-                            Full-Stack Developer | React | Node | MongoDB | AI Integration
+                            Full-Stack Developer | React.js | Node.js | Next.js | GenAI Powered Web Apps
                         </h2>
                         <p className="text-lg text-gray-700 mb-8 max-w-2xl">
                             I build scalable full-stack apps with modern UI and Generative AI integration.

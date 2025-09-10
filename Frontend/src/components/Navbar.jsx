@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Github, Linkedin, Menu, Download, X } from 'lucide-react'
+import { Github, Linkedin, Menu, Download, X, Twitter } from 'lucide-react'
 
 
 const Navbar = () => {
@@ -89,6 +89,14 @@ const Navbar = () => {
                             className="text-gray-600 hover:text-blue-600 transition-colors"
                         >
                             <Linkedin size={20} />
+                        </a>
+                        <a
+                            href="https://x.com/badalsah85"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-600 hover:text-blue-600 transition-colors"
+                        >
+                            <Twitter size={20} />
                         </a>
                     </div>
 
