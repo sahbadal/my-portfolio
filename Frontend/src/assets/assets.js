@@ -3,6 +3,7 @@ import mern_auth from "./mern-authentication.png";
 import ai_image from "./ai-image.png";
 import note_taking from "./note-taking.png";
 import food_delivery from "./food-delivery.png";
+import aiverse from "./aiverse.png";
 
 export const assets = {
   bg_removal,
@@ -10,4 +11,5 @@ export const assets = {
   ai_image,
   note_taking,
   food_delivery,
+  aiverse,
 };

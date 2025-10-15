@@ -19,7 +19,7 @@ const Hero = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <a
-                                href="/Badal-resume-web.pdf"
+                                href="/Badal-web.pdf"
                                 download
                                 className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
                             >

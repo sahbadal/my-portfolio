@@ -2,6 +2,29 @@ import { assets } from "../assets/assets.js";
 
 export const projects = [
   {
+    name: "AiVerse",
+    description:
+      "AIVERSE is a PERN stack AI platform that lets you generate article, blog titles, images, remove background, remove object and review resume and enhance productivity using AI — powered by ClipDrop AI and Gemini AI.",
+    image: assets.aiverse,
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Neon",
+      "Gemini API",
+      "Clipdrop API",
+      "Clerk Auth",
+      "Clerk Payments",
+      "multer",
+      "cloudinary",
+      "pdf-parse",
+    ],
+    github: "https://github.com/sahbadal/AIVERSE",
+    demo: "https://aiverse-one-inky.vercel.app",
+  },
+  {
     name: "Background Remover App",
     description:
       "A background removal tool. Features drag-and-drop upload or paste url and instant processing. Signup and get 5 free credits.",
@@ -30,6 +53,7 @@ export const projects = [
       "Tailwind CSS",
       "Node.js",
       "Express.js",
+      "MongoDB",
       "Stripe",
       "multer",
       "cloudinary",

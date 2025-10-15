@@ -63,7 +63,7 @@ const Navbar = () => {
                             </button>
                         ))}
                         <a
-                            href="/Badal-resume-web.pdf"
+                            href="/Badal-web.pdf"
                             download
                             className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors flex items-center gap-2"
                         >
@@ -132,7 +132,7 @@ const Navbar = () => {
                         ))}
                         <div className="flex items-center justify-between px-3 py-2">
                             <a
-                                href="/Badal-resume-web.pdf"
+                                href="/Badal-web.pdf"
                                 download
                                 className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors flex items-center gap-2"
                             >
