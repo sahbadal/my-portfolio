@@ -4,6 +4,7 @@ import ai_image from "./ai-image.png";
 import note_taking from "./note-taking.png";
 import food_delivery from "./food-delivery.png";
 import aiverse from "./aiverse.png";
+import tiffin_delight from "./tiffindelight.png";
 
 export const assets = {
   bg_removal,
@@ -12,4 +13,5 @@ export const assets = {
   note_taking,
   food_delivery,
   aiverse,
+  tiffin_delight,
 };

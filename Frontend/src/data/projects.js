@@ -44,7 +44,29 @@ export const projects = [
     demo: "https://ai-bg-remover-7nfg.vercel.app",
   },
   {
-    name: "Food Delivery App",
+    name: "Tiffin Delight",
+    description:
+      "A full-stack food delivery platform where users can browse nearby tiffin services, view menus, and place orders, while providers can register their kitchens, manage menus, and track orders in real time. Built with a responsive UI, secure authentication, and smooth order management.",
+    image: assets.tiffin_delight,
+    techStack: [
+      "React.js",
+      "Tailwind CSS",
+      "React Router",
+      "Context API",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stripe",
+      "multer",
+      "cloudinary",
+      "JWT",
+      "Vercel",
+    ],
+    github: "https://github.com/sahbadal/TiffinDelight",
+    demo: "https://tiffin-delight-ten.vercel.app",
+  },
+  {
+    name: "Spicy",
     description:
       "A food delivery application that allows users to browse restaurants, view menus, and place orders for delivery or pickup.",
     image: assets.food_delivery,
