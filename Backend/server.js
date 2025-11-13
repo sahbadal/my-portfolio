@@ -23,7 +23,7 @@ app.use(helmet()); // security headers
 // API routes
 app.use("/api/email", emailRoutes);
 
-app.get("/", (req, res) => res.send("Secure Email API Running ✅"));
+app.get("/", (req, res) => res.send("API is running..."));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
