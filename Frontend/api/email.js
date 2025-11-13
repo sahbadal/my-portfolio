@@ -1,0 +1,14 @@
+import axios from "axios";
+
+const API_URL = `${import.meta.env.VITE_API_BASE_URL}/api/email/send`;
+
+export const sendEmail = async (formData) => {
+  try {
+    const res = await axios.post(API_URL, formData, {
+      headers: { "Content-Type": "application/json" },
+    });
+    return res.data;
+  } catch (err) {
+    throw err.response?.data || { message: "Server error" };
+  }
+};
